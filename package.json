@@ -1,6 +1,6 @@
 {
-  "name": "hexo-renderer-stylus",
-  "version": "0.3.3",
+  "name": "hexo-renderer-stylus-plus",
+  "version": "0.3.4",
   "description": "Stylus renderer plugin for Hexo",
   "main": "index",
   "scripts": {
@@ -12,7 +12,10 @@
   "directories": {
     "lib": "./lib"
   },
-  "repository": "hexojs/hexo-renderer-stylus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novnan/hexo-renderer-stylus.git"
+  },
   "keywords": [
     "hexo",
     "stylus",
@@ -22,7 +25,7 @@
     "styl",
     "renderer"
   ],
-  "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
+  "author": "novnan",
   "license": "MIT",
   "dependencies": {
     "stylus": "^0.54.5",
